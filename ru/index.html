@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    <div id="lang-choosing">
+        Выберите язык: 
+        <select>
+            <option id="en" value="">English</option>
+            <option id="ru" value="">Русский</option>
+        </select>
+    </div>
+    <h1>Владимир Чистов</h1>
+    <h2>Обо мне:</h2>
+
+    <p>Мой любимый язык программирования - Python, изучаю Rust.</p>
+
+    <p>Мне нравится визуализация даных.</p>
+
+    <p>Моя статистика на сайте GitHub:</p>
+
+    <p>
+        <img src="https://github-readme-stats.vercel.app/api?username=wchistow&show_icons=true&theme=transparent">
+        <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=wchistow&layout=compact">
+    </p>
+
+    <hr>
+
+    <h2>Контакты:</h2>
+
+    <p><a href="https://gitflic.ru/user/wchistow">GitFlic</a></p>
+
+    StackExchange:
+
+    <p><a href="https://stackexchange.com/users/25638983"><img src="https://stackexchange.com/users/flair/25638983.png" width="208" height="58" alt="Профиль участника wchistow в Stack Exchange, сети бесплатных сайтов вопросов и ответов, управляемых сообществом" title="Профиль участника wchistow в Stack Exchange, сети бесплатных сайтов вопросов и ответов, управляемых сообществом"></a></p>
+
+    Вы можете написать мне <a href="https://github.com/wchistow/wchistow/discussions/1">здесь</a>.
+    <script>
+        $('select #en').click(function(evt) {
+            window.open('https://wchistow.github.io/en', '_self')
+        });
+        $('select #ru').click(function(evt) {
+            window.open('https://wchistow.github.io/ru', '_self')
+        });
+    </script>
+</body>
