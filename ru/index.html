@@ -8,7 +8,7 @@
         Выберите язык: 
         <select>
             <option id="en" value="">English</option>
-            <option id="ru" value="">Русский</option>
+            <option id="ru" value="" selected>Русский</option>
         </select>
     </div>
     <h1>Владимир Чистов</h1>
@@ -38,10 +38,10 @@
     Вы можете написать мне <a href="https://github.com/wchistow/wchistow/discussions/1">здесь</a>.
     <script>
         $('select #en').click(function(evt) {
-            window.open('https://wchistow.github.io/en', '_self')
+            window.open('https://wchistow.github.io/en', '_self');
         });
         $('select #ru').click(function(evt) {
-            window.open('https://wchistow.github.io/ru', '_self')
+            window.open('https://wchistow.github.io/ru', '_self');
         });
     </script>
 </body>

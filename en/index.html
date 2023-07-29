@@ -7,7 +7,7 @@
     <div id="lang-choosing">
         Choose the language: 
         <select>
-            <option id="en" value="">English</option>
+            <option id="en" value="" selected>English</option>
             <option id="ru" value="">Русский</option>
         </select>
     </div>
@@ -38,10 +38,10 @@
     Write me <a href="https://github.com/wchistow/wchistow/discussions/1">here</a>.
     <script>
         $('select #en').click(function(evt) {
-            window.open('https://wchistow.github.io/en', '_self')
+            window.open('https://wchistow.github.io/en', '_self');
         });
         $('select #ru').click(function(evt) {
-            window.open('https://wchistow.github.io/ru', '_self')
+            window.open('https://wchistow.github.io/ru', '_self');
         });
     </script>
 </body>
