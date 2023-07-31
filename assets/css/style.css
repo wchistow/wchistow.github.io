@@ -1,7 +1,41 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
 }
 
 a {
-    color: blue;
+    color: rgb(0, 102, 204);
+}
+
+a button.repo {
+    border: 3px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+a button.repo:hover {
+    background-color: lightgrey;
+}
+
+.lang-dot {
+	display: inline-block;
+	overflow: visible !important;
+	vertical-align: text-bottom;
+	fill: currentColor;
+}
+
+span.lang-name {
+    padding-left: 0px;
+}
+
+div#lang-choosing select {
+    border: 3px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+div#lang-choosing select:hover {
+    background-color: lightgrey;
 }
